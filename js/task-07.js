@@ -5,7 +5,7 @@ const spanEl = document.querySelector("#text");
 console.log(spanEl);
 function onInputSlider(event) {
     
-    spanEl.style.fontSize =`${event.currentTarget.value}px`; 
+    spanEl.style.fontSize =`${sliderEl.value}px`; 
    
 }
 
