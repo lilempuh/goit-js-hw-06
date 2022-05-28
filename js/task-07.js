@@ -9,7 +9,7 @@ function onInputSlider(event) {
    
 }
 
-sliderEl.addEventListener("change",onInputSlider)
+sliderEl.addEventListener("input",onInputSlider)
 
 
 
